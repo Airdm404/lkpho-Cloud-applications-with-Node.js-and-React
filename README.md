@@ -49,9 +49,9 @@ let server = app.listen(port, () => {
 * run npm start. add other endpoints and have fun
 
 *  to have the server restart after changes
-  - run npm install --save-dev nodemon
-  - change your start in package.json to use nodemon
-  - `{
+    - run npm install --save-dev nodemon
+    - change your start in package.json to use nodemon
+    - `{
   "name": "myexpressapp",
   "version": "1.0.0",
   "description": "",
@@ -69,4 +69,4 @@ let server = app.listen(port, () => {
     "nodemon": "^X.X.X"
   }
 }`
-- run npm start
+    - run npm start
